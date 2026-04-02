@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://localhost:8080/auth/login
+method: POST
+auth:
+  type: basic
+  credentials:
+    password: password
+    username: admin1
+order: 4000

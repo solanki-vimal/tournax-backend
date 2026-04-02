@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:8080/teams/1
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "teamName": "Thunder Wolves Updated"
+    }
+auth:
+  type: basic
+  credentials:
+    password: password
+    username: manager1
+order: 7000

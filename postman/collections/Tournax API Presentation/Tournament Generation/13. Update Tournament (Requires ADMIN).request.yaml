@@ -1,0 +1,21 @@
+$kind: http-request
+url: http://localhost:8080/tournaments/1?gameId=1
+method: PUT
+headers:
+  Content-Type: application/json
+queryParams:
+  gameId: "1"
+body:
+  type: text
+  content: |-
+    {
+      "tournamentName": "Champions Tour Season 2",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-30"
+    }
+auth:
+  type: basic
+  credentials:
+    password: password
+    username: admin1
+order: 4000

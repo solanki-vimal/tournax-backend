@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://localhost:8080/tournaments
+method: GET
+auth:
+  type: basic
+  credentials:
+    password: password
+    username: manager1
+order: 2000

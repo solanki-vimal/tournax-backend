@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://localhost:8080/teams/1/leave
+method: DELETE
+auth:
+  type: basic
+  credentials:
+    password: password
+    username: player1
+order: 5000

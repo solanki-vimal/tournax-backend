@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://localhost:8080/games
+method: GET
+auth:
+  type: basic
+  credentials:
+    password: password
+    username: player1
+order: 2000

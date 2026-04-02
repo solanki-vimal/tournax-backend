@@ -1,0 +1,21 @@
+$kind: http-request
+url: http://localhost:8080/matches?tournamentId=1&team1Id=1&team2Id=2
+method: POST
+headers:
+  Content-Type: application/json
+queryParams:
+  tournamentId: "1"
+  team1Id: "1"
+  team2Id: "2"
+body:
+  type: text
+  content: |-
+    {
+      "matchDate": "2026-08-15"
+    }
+auth:
+  type: basic
+  credentials:
+    password: password
+    username: admin1
+order: 1000

@@ -1,0 +1,18 @@
+$kind: http-request
+name: 16. Update Match Result / Winner (Requires ADMIN)
+url: http://localhost:8080/matches/1/result
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "winnerTeamId": 1
+    }
+auth:
+  type: basic
+  credentials:
+    password: password
+    username: admin1
+order: 3000

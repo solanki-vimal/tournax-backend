@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:8080/teams
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "teamName": "Sentinels"
+    }
+auth:
+  type: basic
+  credentials:
+    password: password
+    username: manager1
+order: 1000

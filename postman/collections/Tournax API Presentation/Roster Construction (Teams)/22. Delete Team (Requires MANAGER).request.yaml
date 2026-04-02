@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://localhost:8080/teams/1
+method: DELETE
+auth:
+  type: basic
+  credentials:
+    password: password
+    username: manager1
+order: 8000

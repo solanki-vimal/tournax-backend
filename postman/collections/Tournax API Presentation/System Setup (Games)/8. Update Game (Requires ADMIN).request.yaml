@@ -1,0 +1,18 @@
+$kind: http-request
+url: http://localhost:8080/games/1
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "gameName": "Valorant 2",
+      "genre": "FPS"
+    }
+auth:
+  type: basic
+  credentials:
+    password: password
+    username: admin1
+order: 4000

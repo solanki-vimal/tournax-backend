@@ -1,0 +1,21 @@
+$kind: http-request
+url: http://localhost:8080/tournaments?gameId=1
+method: POST
+headers:
+  Content-Type: application/json
+queryParams:
+  gameId: "1"
+body:
+  type: text
+  content: |-
+    {
+      "tournamentName": "Champions Tour",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-30"
+    }
+auth:
+  type: basic
+  credentials:
+    password: password
+    username: admin1
+order: 1000

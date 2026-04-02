@@ -31,3 +31,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignore Postman local/workspace data
+.postman/
+postman/environments/
+postman/globals/
+postman/flows/
+
+# ignore any temp/meta files
+postman/*.lock

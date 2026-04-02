@@ -1,0 +1,4 @@
+$kind: collection
+description: "Exhaustive and perfectly ordered collection for a live
+  presentation. Follows the exact entity relational hierarchy: Auth -> Game ->
+  Tournament -> Team -> Match."
